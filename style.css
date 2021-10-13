@@ -1,51 +1,53 @@
-body{
+body {
     box-sizing: border-box;
 }
 
-body{
+body {
     display: grid;
     grid-template-columns: auto;
     background: #181719;
     color: #FFFFFF;
 
-;
+    ;
 }
 
-header{
+header {
     display: grid;
     grid-template-columns: auto auto;
 }
 
-.logo{
+.logo {
     font-family: Crimson Pro;
     font-style: normal;
     font-weight: 200;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-   /* color: #FFFFFF; */
+    /* color: #FFFFFF; */
 }
 
 .logo li {
     width: 150px;
     border: 2px solid #FFFFFF;
-;
+    ;
     border-width: 2px;
     padding: 20px;
 }
 
-ol{
+ol {
     list-style: none;
 }
 
-.nav{
+.nav {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-.nav li:first-child{
+
+.nav li:first-child {
     text-decoration: underline;
 }
-.nav li{
+
+.nav li {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -58,19 +60,19 @@ ol{
 
 }
 
-main{
+main {
     display: grid;
     grid-template-columns: auto auto;
     width: 100%;
 }
 
-.description-area{
+.description-area {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
 }
 
-.description-area p{
+.description-area p {
     width: 410px;
     font-family: Montserrat;
     font-style: normal;
@@ -81,7 +83,7 @@ main{
     /* color: #FFFFFF; */
 }
 
-.description-area h2{
+.description-area h2 {
     width: 365px;
     font-family: Lora;
     font-style: normal;
@@ -92,26 +94,27 @@ main{
     /* color: #FFFFFF; */
 }
 
-.post-section{
+.post-section {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
 }
 
-.person{
+.person {
     display: grid;
     grid-template-columns: auto auto;
 }
-.room{
-width: 70%;
-height: auto;
+
+.room {
+    width: 70%;
+    height: auto;
 }
 
-.user{
-width: 15%;
-height: auto;
- border-radius: 50%;
- }
+.user {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
 
 
 
@@ -124,30 +127,46 @@ height: auto;
 /* Mobile Responsive */
 
 @media (min-width: 320px) and (max-width: 480px) {
-.nav{
-    display: none;
+    .nav {
+        display: none;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .description-area {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .description-area p {
+        width: 250px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+
+        /* color: #FFFFFF; */
+    }
+
+    .room {
+        width: 100%;
+    }
+
+    .designer {
+        max-width: 190px;
+        font-family: Lora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+.user-profile{
+    width: 90%;
 }
-
-main {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.description-area {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-}
-
-.description-area p {
-    width: 250px;
-   font-family: Montserrat;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 14px;
-   line-height: 17px;
-
-    /* color: #FFFFFF; */
-}
-
 }
