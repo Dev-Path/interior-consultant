@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](assets/screentshot.jpg)
+![screenshot](assets/screenshot.jpg)
 
 
 - I learned how to take a design file and code it following specifications
