@@ -40,8 +40,8 @@
 
 
 - I learned how to take a design file and code it following specifications
-- How research for information on the to help you solve a particular problem
-- How to get going is to continue practising with projects
+- How to research for information on the to help you solve a particular problem
+- How to get going is to continue practicing with projects
 
 ### Built With
 
