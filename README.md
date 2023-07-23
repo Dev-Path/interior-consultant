@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](assets/screenshot.jpg)
+![screenshot](assets/screenshot.png)
 
 - A consultant page with different displays.
 
